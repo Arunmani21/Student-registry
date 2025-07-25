@@ -16,7 +16,7 @@ To run this project locally, ensure you have the following installed:
    Clone repository:
 
 ```bash
-git clone https://github.com/your-repo/student-registry-backend.git
+git clone https://github.com/Arunmani21/Student-registry.git
 cd student-registry-backend
 ```
 
@@ -37,7 +37,7 @@ This will start a local Ethereum network at `http://127.0.0.1:8545`.
 4. Deploy the smart contract to the Hardhat network.
 
 ```bash
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat ignition deploy ignition/modules/StudentRegistryModule.js --network localhost
 ```
 
 5. After deploying, note down the contract address that is printed in the console. This address will be used to interact with the smart contract.
